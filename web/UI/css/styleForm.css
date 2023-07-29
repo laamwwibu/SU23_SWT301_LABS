@@ -1,0 +1,58 @@
+body {
+    font-family: "Montserrat";
+    background-color: rgb(28, 26, 36);
+    overflow-x: hidden;
+    height: 100vh;
+}
+ 
+.container {
+    margin: auto;
+    border: 1px solid rgb(182, 182, 182);
+    width: 40%;
+    background-color: rgb(40, 38, 51);
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+}
+
+.container .form {
+    padding: 2rem;
+}
+
+
+
+
+
+/* for signup prototype */
+
+.signup label:hover {
+    text-decoration: underline;
+}
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.radio-group label {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: rgb(49, 47, 61);
+    border-radius: 5px;
+}
+
+.form input[type="file"] {
+    height: 100%;
+}
+
+.radio-group i {
+    width: 30px;
+}
+
+.form-group input::placeholder {
+    color: grey;
+}
